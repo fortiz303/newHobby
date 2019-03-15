@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    
+
+    <body>
+      <h2> This is a form for assigning lessons</h2>
+
+      <form>
+        <!--text fields-->
+        First Name: <br>
+        <input type = "text" required><br>
+        Last Name: <br>
+        <input type ="text" required><br>
+
+        <!--radio buttons-->
+        Distance from gym <br>
+        <input name = "distance" 
+        value = "Less than a mile"
+        type = "radio"> Less than a mile <br>
+        <input type = "radio" name =
+        "distance" value = "1<5"> More than a mile less than 5 miles <br> 
+        <input type = "radio"> More than a mile less than 5 miles <br>
+        <input type = "radio" name = "distance" value= "1<5"> More than 5 miles <br>
+
+        <!--drowpdown menu-->
+        <select name = " Skill Level">
+          <option value = "Beginner"> Beginner </option>
+          <option value = "Intermediate"> Intermediate </option>
+          <option value = "Advanced"> Advanced </option>
+          
+          
+          </select>
+          </br>
+
+      <!--textarea-->
+      <textarea name= "experience" row= "10" cols = "30" required placeholder = "Write about" >
+        I want to play basketball because of...
+      </textarea>
+    <!--read-only-->
+      <input type= "submit">
+      <textarea name = "disclaimer" rows = "5" cols = "30" disabled>
+        Enroll at your own risk </textarea>
+        <br>
+
+
+        <input type = "button" value = "Click to accept"> <br>
+        <input type= "date"> <br>
+        <input type= "password" minlength="8" required>
+        <input type="submit"><br>
+        <input type="email" size ="30" pattern=".+@gmail.com required">
+        <label for = "help"> Do you want somebody to help you with this form?</label>
+        <input type ="checkbox" name="help">
+        </form>
+
+
+
+
+    </body>
+  </html>

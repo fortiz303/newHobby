@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto');
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 60px;
+  text-shadow: 1px 1px 13px rgba(28,110,164,0.65);
+}
+ol{
+  list-style-type: square;
+  list-style-position: inside;
+}
+ul {
+  text-align:center;
+}
+body {
+  background-color:azure;
+  text-align:center;
+}
+a:hover{
+  color:yellow
+}
+a:visited{
+  color:red;
+}
+.image1{
+  opacity: 0.65;
+}
+img:hover {
+  opacity: 1.0;
+}
+.image2{
+  opacity: 0.65;
+}
+img:hover {
+  opacity: 1.0;
+}
+.image3{
+  opacity: 0.65;
+}
+img:hover {
+  opacity: 1.0;
+}
+.image4{
+  opacity: 0.65;
+}
+img:hover {
+  opacity: 1.0;
+}
+.image5{
+  opacity: 0.65;
+}
+img:hover {
+  opacity: 1.0;
+}
+nav {
+background-color:aqua;
+}
+header{
+  background-color:aliceblue;
+}
+header, nav {
+
+}
+h2 {
+  left: 100px;
+  top: 150px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+
+
+
+
+
